@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leela Chaitanya — Portfolio</title>
+
+  <!-- Icons & fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="l-header" id="header">
+    <nav class="nav bd-grid">
+      <a href="#home" class="nav__logo">Leela Chaitanya</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#certifications" class="nav__link">Certifications</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle"><i class='bx bx-menu'></i></div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="l-main">
+    <!-- Home -->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Leela Chaitanya</span><br>Aspiring Software Engineer</h1>
+        <p class="home__subtitle">  </p>
+
+        <div class="home__actions">
+          <a class="button" href="#work">View Projects</a>
+          <a class="button button--ghost" href="assets/resume/resume_python.pdf" download>Download Resume</a>
+        </div>
+
+        <!-- small badge highlight -->
+        <div class="home__badges">
+          <span class="badge"></span>
+        </div>
+      </div>
+
+      <div class="home__img">
+        <img src="assets/img/perfil.jpg" alt="Leela profile" class="profile-img">
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/about.jpeg" alt="about">
+        </div>
+        <div class="about__data">
+          <h3 class="about__subtitle">I’m Leela Chaitanya</h3>
+          <p class="about__text">
+           To obtain a challenging role in a growth-oriented organization where I can apply my technical skills, gain
+ real-world experience, and continue learning to become a successful software Engineer. </p>
+
+          <ul class="about__list">
+            <li><strong>Location:</strong> Narasaraopeta,Andhra Pradesh, India</li>
+            <li><strong>Education:</strong> BTech CSE (2022–2026)</li>
+           
+          </ul>
+
+          <div class="social-inline">
+  <a href="https://www.linkedin.com/in/leelachaitanya-daddala-96708826a/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+  <a href="https://github.com/chaitanya12176" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=leelachaitanyadaddala@gmail.com&su=Hello%20Leela" target="_blank" class="button">Send Email</a>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills__container bd-grid">
+        <div class="skills__list">
+          <div class="skill">
+            <h4>Programming languages</h4>
+            <p> • C • Python </p>
+          </div>
+          <div class="skill">
+            <h4>Frontend</h4>
+            <p> • HTML • CSS • JavaScript • Bootstrap </p>
+          </div>
+          <div class="skill">
+            <h4>Backend</h4>
+            <p> • Node.js • Express js</p>
+          </div>
+          <div class="skill">
+            <h4>Data bases</h4>
+            <p> • MongoDB • My SQL</p>
+          </div>
+           <div class="skill">
+            <h4> Tools and Platforms</h4>
+            <p> • GitHub  •VS Code  •Figma (UI/UX)  •Adobe After Effects</p>
+          </div>
+          
+          
+        </div>
+
+       
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="work section" id="work">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="work__container bd-grid">
+        <!-- Project card: use real images and links -->
+        <article class="work__card" data-title="Teamwork Management System" data-desc="Task & team management platform with role-based access, dashboards and task tracking. Built with Node.js, Express, MongoDB, and vanilla JS." data-tech="HTML, CSS, JS, Node.js, MongoDB"  data-github="https://github.com/chaitanya12176/team-work.git">
+          <img src="assets/img/project-teamwork.png" alt="Teamwork project">
+          <div class="work__card-body">
+            <h3>Teamwork Management System</h3>
+            <p>Task & team management platform</p>
+          </div>
+        </article>
+
+        <article class="work__card" data-title="FoodGo (UI/UX)" data-desc="Mobile UI/UX design for FoodGo — food ordering app built in Figma with prototypes & animations." data-tech="Figma, UI/UX" figma="https://www.figma.com/proto/G48IV1PUVvxgSBbaYazN0K/Untitled?t=qWPUph1hEbNlu8gW-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=91-212&starting-point-node-id=80%3A40">
+          <img src="assets/img/project-foodgo.png" alt="FoodGo">
+          <div class="work__card-body">
+            <h3>FoodGo — Food Ordering (UI)</h3>
+            <p>Figma prototype & UI screens</p>
+          </div>
+        </article>
+
+        <article class="work__card" data-title="Expense Tracker" data-desc="Responsive expense tracker that adds/deletes entries and shows balance. Built with vanilla JS & Bootstrap." data-tech="HTML, CSS, Bootstrap, JS" data-demo="#" data-github="https://github.com/chaitanya12176/expense-tracker">
+          <img src="assets/img/project-expensetracker.png" alt="Expense tracker">
+          <div class="work__card-body">
+            <h3>Expense Tracker</h3>
+            <p>Income & expense tracker</p>
+          </div>
+        </article>
+
+        <article class="work__card" data-title="Sticky Notes App" data-desc="A notes app with color-coded notes and localStorage persistence. Simple, clean UI for quick notes." data-tech="HTML, CSS, JS" data-github="https://github.com/chaitanya12176/sticky-notes-app.git" >
+          <img src="assets/img/project-sticky.png" alt="Sticky notes">
+          <div class="work__card-body">
+            <h3>Sticky Notes App</h3>
+            <p>Color notes and save locally</p>
+          </div>
+        </article>
+
+        
+
+        <!-- add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications section" id="certifications">
+      <h2 class="section-title">Certifications </h2>
+
+      <div class="certifications__container bd-grid">
+        <div class="cert-card">
+          <i class='bx bxs-badge-check cert-icon'></i>
+          <h3>Deloitte Virtual Internship</h3>
+          <p>Data Analytics — completed Deloitte's virtual internship</p>
+          <a class="button" href="https://drive.google.com/file/d/1kdJATfRl9DUhayLpMEhkT5ibUSlKC3zK/view?usp=sharing" target="_blank" >View Certificate</a>
+        </div>
+
+        <div class="cert-card">
+          <i class='bx bxs-certificate cert-icon'></i>
+          <h3>UI/UX — Coursera</h3>
+          <p>Design principles, wireframing & prototyping in Figma.</p>
+          <a class="button" href="https://drive.google.com/file/d/1kKGQJ70eU7SIQNF2Jjv7BrSuh4m7T7MH/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="cert-card">
+          <i class='bx bxs-certificate cert-icon'></i>
+          <h3>HTML & CSS — Coursera</h3>
+          <p>Responsive layouts, semantic HTML and modern CSS.</p>
+          <a class="button" href="https://drive.google.com/file/d/1_gILqhURhbE6KEkijeGGk4kn1cExZ2sB/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+
+        <div class="cert-card">
+          <i class='bx bxs-certificate cert-icon'></i>
+          <h3>Programming in Java —  NPTEL</h3>
+          <p>Learned Java fundamentals, OOP principles, exception handling, file I/O, multithreading, and basic GUI development.</p>
+          <a class="button" href="https://drive.google.com/file/d/1_0LjzA-luD7vzLiSengWlqHpDZxGv3ht/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+        <div class="cert-card">
+          <i class='bx bxs-certificate cert-icon'></i>
+          <h3>Java — edX </h3>
+          <p>Gained skills in Java syntax, data types, control structures, OOP basics, and problem-solving techniques.</p>
+          <a class="button" href="https://drive.google.com/file/d/1gvGOE2jmFoHbBZhRaQLqK7o1TyiN8rh3/view?usp=sharing" target="_blank">View Certificate</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact__container bd-grid">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:leelachaitanyadaddala@gmail.com" target="_blank">leelachaitanyadaddala@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+919391237849">+91 93912 37849</a></p>
+          <p><strong>Location:</strong> Narasaraopeta,Andhra Pradesh, India</p>
+        </div>
+
+        <div class="contact__actions">
+          <a class="button" href="https://mail.google.com/mail/?view=cm&fs=1&to=leelachaitanyadaddala@gmail.com&su=Hello%20Leela" target="_blank">Send Email</a>
+
+          <a class="button button--ghost" href="assets/resume/resume_python.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__title">Leela Chaitanya</p>
+    <div class="footer__social">
+      <a href="https://www.linkedin.com/in/leelachaitanya-daddala-96708826a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://github.com/chaitanya12176" target="_blank"><i class='bx bxl-github'></i></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=leelachaitanyadaddala@gmail.com" target="_blank"><i class='bx bx-mail-send'></i></a>
+ </div>
+    <p class="footer__copy">&#169; 2025 Leela Chaitanya. All rights reserved.</p>
+  </footer>
+
+  <!-- Project modal -->
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal__dialog">
+      <button class="modal__close" id="modal-close" aria-label="Close modal"><i class='bx bx-x'></i></button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+      <p><strong>Technologies:</strong> <span id="modal-tech"></span></p>
+      <div class="modal__links">
+        <a id="modal-demo" class="button" href="#" target="_blank">Live Demo</a>
+        <a id="modal-github" class="button button--ghost" href="#" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
