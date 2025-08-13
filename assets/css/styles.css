@@ -107,3 +107,36 @@ img{max-width:100%;display:block}
   .nav__toggle{display:block}
   .nav__list{flex-direction:column}
 }
+.profile-img {
+  width: 320px;
+  height: 320px;             /* Ensure it's a perfect square */
+  border-radius: 50%;        /* Circle */
+  object-fit: cover;         /* No stretching */
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+  animation: popup 0.6s ease-out, circle-motion 6s linear infinite;
+}
+
+/* Popup animation */
+@keyframes popup {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Circle motion animation */
+@keyframes circle-motion {
+  0% {
+    transform: rotate(0deg) translateX(12px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(12px) rotate(-360deg);
+  }
+}
